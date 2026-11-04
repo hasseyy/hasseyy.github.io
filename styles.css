@@ -1,0 +1,101 @@
+:root {
+  color-scheme: light;
+  --text: #252525;
+  --muted: #606060;
+  --line: #d9d9d9;
+  --link: #244b72;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #fff;
+  color: var(--text);
+  font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+main {
+  width: min(100% - 40px, 820px);
+  margin: 0 auto;
+  padding: 28px 0 40px;
+}
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 18px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+}
+
+.name-en {
+  margin: 0;
+  color: var(--muted);
+}
+
+.portrait {
+  display: block;
+  width: 144px;
+  height: 144px;
+  object-fit: cover;
+  flex: none;
+}
+
+section {
+  padding: 14px 0 16px;
+  border-top: 1px solid var(--line);
+}
+
+h2 {
+  margin: 0 0 6px;
+  font-size: 1.18rem;
+  font-weight: 700;
+}
+
+h3 {
+  margin: 0 0 3px;
+  color: var(--muted);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.plain-list + h3,
+.publication-list + h3 { margin-top: 12px; }
+
+.plain-list,
+.publication-list {
+  padding-left: 1.45em;
+  margin: 0;
+}
+
+li + li { margin-top: 4px; }
+
+.publication-list li { margin-bottom: 8px; }
+.publication-list li:last-child { margin-bottom: 0; }
+
+a {
+  color: var(--link);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:hover,
+a:focus-visible { color: #132f4b; }
+
+@media (max-width: 560px) {
+  main { padding-top: 20px; }
+  .profile { gap: 16px; }
+  .portrait { width: 100px; height: 100px; }
+  h1 { font-size: 1.65rem; }
+  body { font-size: 16px; }
+}

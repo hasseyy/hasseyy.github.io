@@ -1,0 +1,8 @@
+# このリポジトリには公開用のファイルだけを入れる
+*
+!.gitignore
+!.nojekyll
+!index.html
+!styles.css
+!haseyama_yuuna.jpg
+!README.md
