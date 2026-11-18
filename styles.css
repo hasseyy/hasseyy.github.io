@@ -23,6 +23,28 @@ main {
   padding: 28px 0 40px;
 }
 
+.language-switch {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+  font-size: .875rem;
+}
+
+.language-switch a {
+  padding: 0 .7em;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.language-switch a:first-child { border-right: 1px solid var(--line); }
+.language-switch a:last-child { padding-right: 0; }
+.language-switch a[aria-current="page"] {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .profile {
   display: flex;
   align-items: flex-start;

@@ -8,7 +8,10 @@ GitHub Pages向けの研究プロフィールです。
 
 ## 内容を更新する
 
-- 名前・経歴・論文・非常勤・委員・奨学金・受賞：`index.html`
+- 日本語の名前・経歴・論文・非常勤・委員・奨学金・受賞：`index.html`
+- 英語版（同じ内容を更新）：`en.html`
 - 写真：`haseyama_yuuna.jpg`
 - 色や余白：`styles.css`
+
+公開後、検索エンジン向けのサイトマップは <https://hasseyy.github.io/sitemap.xml> で確認できます。
 

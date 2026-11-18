@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hasseyy.github.io/sitemap.xml
